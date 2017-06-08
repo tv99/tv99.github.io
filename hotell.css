@@ -1,0 +1,201 @@
+.header {
+    text-align: right;
+}
+
+body {
+    position: relative;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.vertical-center {
+    
+    /* Det här är till för att centrera h1 taggen i mitten av jumbotron */
+    
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one */
+    display: flex;
+    align-items: center;
+}
+
+#intro {
+    text-align: center;
+    border: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.row5 {
+    padding-top: 75px;
+}
+
+.row2 {
+    padding-top: 20px;
+    height: 15px;
+    text-align: right;
+}
+
+.navbar-header {
+    text-align: center;
+}
+
+.navbar-inverse {
+    border: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 1em;
+}
+
+.pfarg {
+    color: white;
+}
+
+.pfarg2 {
+    color: white;
+}
+
+.pfarg3 {
+    color: antiquewhite;
+}
+
+.btn-primary {
+    background: #000;
+    border: 1px solid;
+    border-radius: 15px;
+    height: 50px;
+    border-color: black;
+    background-color: green;
+    
+}
+
+.form-control {
+    /* Search textens färg
+    background: #FAEBD7; */
+}
+
+.btn-default {
+    /* Search knappens färg
+    background: #FAEBD7; */
+}
+
+.icon-bar {
+   background-color:#FF0000 !important;
+ }
+
+.col-md-4 {
+    padding-left: 20px;
+}
+
+#box-wrapper {
+    background-color: transparent;
+    height: 50em;
+}
+
+
+#box-wrapper2 {
+    background-color: transparent;
+}
+
+#bakgrundsbild {
+    width:102%;
+    margin: -1%;
+    margin-top: -3%;
+    position: fixed;
+    z-index: -1;
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.control-label {
+    /* Gör så att labeln ligger direkt ovanför ikonerna på registreringen
+    */
+    margin-bottom: 0;
+    text-align: right;
+    padding-top: 7px;
+}
+
+.footer2 {
+    float: right;
+}
+
+.social {
+    list-style-type: none;
+}
+
+.social li {
+	background: none repeat scroll 0 0 #B5B5B5;
+	border: 2px solid #B5B5B5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+
+.social li a {
+	color: #EDEFF1;
+}
+
+.social li:hover {
+	border: 2px solid #2c3e50;
+	background: #2c3e50;
+}
+
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #EDEFF1 !important;
+}
+
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+.payments {
+	font-size: 1.5em;	
+}

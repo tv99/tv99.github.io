@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang=sv>
+    <head lang=sv>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-social.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="hotell.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Hotell</title>
+
+    </head>
+
+    <body>
+        
+        <img id="bakgrundsbild" alt="bedroom" src="bilder/bedroom2.jpg"/>
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">      
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse">
+                     <ul class="nav navbar-nav col-md-12">
+                         <li><a href="Start.html"><p class="pfarg"> Start </p></a></li>
+                         <li><a href="Boka.html"><p class="pfarg"> Boka </p></a></li>
+                         <li><a href="Hitta.html"><p class="pfarg"> Hitta </p></a></li>
+                         <li class="active"><a href="Kontakta.html"><p class="pfarg"> Kontakta </p></a></li>
+                            <li class="nav navbar-nav navbar-right">
+                                <ul class="nav navbar-nav navbar-right">
+                                    
+                                <!-- Modal för Sign Up -->
+                                <li data-toggle="modal" data-target="#SkapaKonto"><a href="#" class="btn btn-primary btn-sm" role="button"><p class="pfarg2"> Skapa Konto </p></a></li>
+
+                                <!-- Modal för Logga In -->
+                                 <li data-toggle="modal" data-target="#LoggaIn"><a href="#" class="btn btn-primary btn-sm" role="button"><p class="pfarg2"> Logga in </p></a></li>
+                                </ul>
+                            </li>
+                        <li>
+                            <ul class="navbar-form navbar-left">
+                              <li class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="input-group-btn">
+                                  <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                  </button>
+                                </div>
+                              </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="jumbotron vertical-center" id="box-wrapper">
+            <div class="container">
+                <div class="row">
+                    <section class="col-md-12">
+                        <h1>Kontakta oss</h1>
+                        <p class="pfarg3">Telefonnummer: 0734374359</p>
+                        <p class="pfarg3">Vi är tillgängliga dygnet runt.</p>
+                        <p class="pfarg3">Email: thienhotell@gmail.com</p>
+                        <p class="pfarg3">Vi svarar på alla frågor inom 24 timmar.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+                                <div id="SkapaKonto" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title">Skapa ett konto</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                
+                                                <!-- Här skriver du in ditt förnamn -->
+                                                <div class="form-group">
+                                                    <label for="name" class="cols-sm-2 control-label"> Förnamn</label>
+                                                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span><input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+                                                </div>
+                                                
+                                                <!-- Här skriver du in ditt efternamn -->
+                                                    <div class="form-group">
+                                                    <label for="lastname" class="cols-sm-2 control-label"> Efternamn</label>
+                                                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span><input type="text" class="form-control" name="lastname" id="lastname"  placeholder="Enter your Lastname"/>
+                                                </div>
+                                                
+                                                <!-- Här skriver du in din e-postaddress -->
+                                                <div class="form-group">
+                                                    <label for="email" class="cols-sm-2 control-label">E-postaddress</label>
+                                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									               <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+                                                </div>
+                                                
+                                                <!-- Här skriver du in ditt användarnamn -->
+                                                <div class="form-group">
+                                                    <label for="username" class="cols-sm-2 control-label"> Användarnamn</label>
+                                                    <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									               <input type="text" class="form-control" name="username" id="username1"  placeholder="Enter your Username"/>
+                                                </div>
+                                                
+                                                <!-- Här skriver du in ditt lösenord -->
+                                                <div class="form-group">
+                                                    <label for="password" class="cols-sm-2 control-label">Lösenord</label>
+                                                    <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									               <input type="password" class="form-control" name="password" id="password2"  placeholder="Enter your Password"/>
+                                                </div>
+                                                
+                                                <!-- Här skriver du om ditt lösenord -->
+                                                <div class="form-group">
+                                                    <label for="confirm" class="cols-sm-2 control-label">Konfirmera Lösenord</label>
+                                                    <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									               <input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+                                                </div>
+                                            
+                                            
+                                            <!-- Registrerings knapp -->
+                                            <div class="modal-footer">
+                                                <div class="form-group">
+                                                    <button type="button" class="btn btn-primary btn-lg btn-block login-button" data-dismiss="modal">Reigstrera</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+    
+                                    <div id="LoggaIn" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Logga In</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                
+                                                <!-- Här skriver du in ditt användarnamn -->
+                                                <div class="form-group">
+                                                    <label for="username" class="cols-sm-2 control-label"> Användarnamn</label>
+									               <input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+                                                </div>
+                                                
+                                                <!-- Här skriver du in ditt lösenord -->
+                                                <div class="form-group">
+                                                    <label for="password" class="cols-sm-2 control-label">Lösenord</label>
+									               <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+                                                </div>
+                                                
+                                                
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <div class="form-group">
+                                                    <button type="button" class="btn btn-primary btn-lg btn-block login-button" data-dismiss="modal">Logga in</button>
+                                                </div>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                    </div>
+    
+                                    <div id="BokaRum" class="modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">Boka</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                
+                                                <!-- Här skriver du in din ankomst -->
+                                                <div class="form-group">
+                                                    <label for="ankomst" class="cols-sm-2 control-label"> Ankomst</label>
+									               <input type="number" class="form-control" name="ankomst" id="ankomst"  placeholder="Skriv in datum"/>
+                                                </div>
+                                                
+                                                <!-- Här skriver du in antal nätter -->
+                                                <div class="form-group">
+                                                    <label for="days" class="cols-sm-2 control-label">Nätter</label>
+									               <input type="text" class="form-control" name="days" id="days"  placeholder="Skriv in antal nätter"/>
+                                                </div>
+
+                                                <!-- Här skriver du in antal rum -->
+                                                <div class="form-group">
+                                                    <label for="rooms" class="cols-sm-2 control-label">Rum</label>
+									               <input type="text" class="form-control" name="rooms" id="rooms"  placeholder="Skriv in antal rum"/>
+                                                </div>
+                                                    
+                                                <!-- Här skriver du in antal personer -->
+                                                <div class="form-group">
+                                                    <label for="personer" class="cols-sm-2 control-label">Personer</label>
+									               <input type="text" class="form-control" name="personer" id="personer"  placeholder="Skriv in antal personer"/>
+                                                </div>
+                                                
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <div class="form-group">
+                                                        <button type="button" class="btn btn-primary btn-lg btn-block login-button" data-dismiss="modal">Sök nu </button>
+                                                    </div>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                    </div>
+        
+        <footer class="site-footer">
+            <div class="footer-upper">
+                <div class="container">
+                    <div class="col-sm-4 footer2">
+                        <div class="nav nav-pills">
+                            <div class="navbar-text pull-right">
+                                <ul class="social">
+                                    <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                                    <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                                    <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                                    <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="pull-left"> Pauligatan 18, 542 38 Malmö</p>
+                    <div class="pull-right">
+                        <ul class="nav nav-pills payments">
+                            <li><i class="fa fa-cc-visa"></i></li>
+                            <li><i class="fa fa-cc-mastercard"></i></li>
+                            <li><i class="fa fa-cc-amex"></i></li>
+                            <li><i class="fa fa-cc-paypal"></i></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow45.js"></script>
+        <noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a></noscript>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+    
+</html>
